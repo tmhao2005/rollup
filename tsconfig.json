@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "checkJs": false,
+    "jsx": "react",
+    "strict": true,
+    "strictNullChecks": true,
+    "module": "ESNext",
+    "target": "ES2015",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "src/**/*.test.ts"],
+  "include": ["src/**/*.ts"]
+}
